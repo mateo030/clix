@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1680px) {
+
+  .hero {
+    gap: 2em;
+  }
+  
+  .hero-image img {
+    height: 590px;
+    width: 590px;
+    object-fit: contain;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .main-content {
+    max-width: 100%;
+    padding-left: auto;
+  }
+
+  .category-img img {
+    height: 300px;
+    width: 180px;
+  }
+
+  .category-container {
+    flex-wrap: nowrap;
+  }
+
+}
+
+@media only screen and (max-width: 1425px) {
+
+  .main-content {
+    padding-left: 2em;
+  }
+
+  .category-img img {
+    display: none;
+  }
+
+  .category-container {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .product-desc {
+    all: revert;
+  }
+
+  .product-desc {
+    font-size: 16px;
+  }
+
+  .img-bottom-text {
+    all: revert;
+  }
+
+  .img-bottom-text h1 {
+    color: #1E1C1C;
+  }
+
+  .user-main {
+    flex-wrap: wrap;
+  }
+
+  .table-container table {
+    width: inherit;
+  }
+
+  .product-catalog-aside {
+    display: none;
+  }
+
+  .product-catalog-header {
+    flex-wrap: wrap;
+  }
+
+  .product-catalog-main {
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text a {
+    font-size: 28px;
+  }
+
+  .hero-image img {
+    height: 330px;
+    width: 350px;
+  }
+
+  .mid {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .signup-img img{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 620px) {
+
+  nav {
+    text-align: center;
+  }
+
+  .search-form {
+    display: none;
+  }
+
+  .hidden-form{
+    background-color: #121212;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+
+  .hidden-form form input {
+    width: 300px;
+    height: 30px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero-image img {
+    display: none;
+  }
+
+  .hero-bottom {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .hero-icon-container p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .mid {
+    padding: 0;
+    border: none;
+  }
+
+  .main-content {
+    padding-left: 3em;
+  }
+
+  .small-icon-container {
+    display: none;
+  }
+
+  .table-hide {
+    display: none;
+  }
+
+  .product-image img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .breadcrumb {
+    display: none;
+  }
+
+  .purchase-area {
+    padding-left: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  nav {
+    align-items: center;
+  }
+
+  .user-main {
+    max-width: 100%;
+  }
+
+  .user-sidenav {
+    margin: 0 auto;
+  }
+}
